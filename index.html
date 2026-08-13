@@ -432,3 +432,31 @@
 
 </body>
 </html>
+/* ضبط مقاس اللوجو */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* على الموبايل */
+@media (max-width: 768px) {
+    .logo {
+        width: 120px;
+        height: 50px;
+    }
+
+    .logo img {
+        object-fit: contain;
+    }
+}
