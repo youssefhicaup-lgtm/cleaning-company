@@ -6,17 +6,77 @@
 <meta name="description" content="شركة خدمات نظافة احترافية">
 <title>الأمير لخدمات النظافة</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+/* ===== اللوجو والهيدر ===== */
+
+.navin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 55px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+/* زر الواتساب */
+.wa.top {
+    white-space: nowrap;
+}
+
+/* الموبايل */
+@media (max-width: 768px) {
+
+    .navin {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 85px;
+        height: 45px;
+    }
+
+    .navin nav {
+        display: none;
+    }
+
+    .wa.top {
+        font-size: 13px;
+        padding: 9px 12px;
+    }
+}
+</style>
+
 </head>
 
 <body>
 
 <header class="nav">
+
 <div class="container navin">
 
+<!-- اللوجو -->
 <a class="logo" href="#home">
 <img src="WhatsApp Image 2026-08-13 at 10.01.41 PM.jpeg" alt="الأمير لخدمات النظافة">
 </a>
 
+<!-- القائمة -->
 <nav>
 <a href="#packages">الباقات</a>
 <a href="#services">خدماتنا</a>
@@ -26,18 +86,28 @@
 <a href="#contact">تواصل معنا</a>
 </nav>
 
-<a class="wa top" href="https://wa.me/201021512958">💬 احجز واتساب</a>
+<!-- واتساب -->
+<a class="wa top" href="https://wa.me/201021512958">
+💬 احجز واتساب
+</a>
 
 </div>
+
 </header>
+
 
 <main>
 
+<!-- الرئيسية -->
 <section id="home" class="hero">
+
 <div class="container heroGrid">
 
 <div>
-<div class="badge">📍 الشيخ زايد، 6 أكتوبر · ⭐ 86% توصية</div>
+
+<div class="badge">
+📍 الشيخ زايد، 6 أكتوبر · ⭐ 86% توصية
+</div>
 
 <h1>
 بيتك يستاهل <span>نظافة بمعايير عالية</span>
@@ -49,161 +119,289 @@
 </p>
 
 <div class="actions">
-<a class="btn" href="https://wa.me/201021512958">💬 احجز على واتساب</a>
-<a class="btn ghost" href="#packages">شوف الباقات والأسعار</a>
+
+<a class="btn" href="https://wa.me/201021512958">
+💬 احجز على واتساب
+</a>
+
+<a class="btn ghost" href="#packages">
+شوف الباقات والأسعار
+</a>
+
 </div>
 
 <div class="trust">
-<div>⚡<b>رد سريع</b><small>على واتساب</small></div>
-<div>👷<b>فريق موثوق</b><small>مدرّب ومحترف</small></div>
-<div>💵<b>أسعار واضحة</b><small>من غير مفاجآت</small></div>
-</div>
+
+<div>
+⚡
+<b>رد سريع</b>
+<small>على واتساب</small>
 </div>
 
+<div>
+👷
+<b>فريق موثوق</b>
+<small>مدرّب ومحترف</small>
+</div>
+
+<div>
+💵
+<b>أسعار واضحة</b>
+<small>من غير مفاجآت</small>
+</div>
+
+</div>
+
+</div>
+
+
 <div class="heroCard">
+
 <div class="cleanIcon">🧹</div>
+
 <h3>تنظيف شامل لشقتك</h3>
+
 <p>من الأرضيات للزجاج والمفروشات</p>
-<div class="rating">★★★★★ <small>86% توصية</small></div>
+
+<div class="rating">
+★★★★★
+<small>86% توصية</small>
+</div>
+
 <div class="cardLine">
 <span>📅 مواعيد مرنة</span>
 <span>✓ خدمة احترافية</span>
 </div>
+
 </div>
 
 </div>
+
 </section>
 
+
+<!-- الإحصائيات -->
 <section class="stats">
-<div>1.6K+<small>متابع</small></div>
-<div>86%<small>توصية العملاء</small></div>
-<div>500+<small>جنيه يبدأ السعر</small></div>
-<div>7<small>أيام استقبال حجوزات</small></div>
+
+<div>
+1.6K+
+<small>متابع</small>
+</div>
+
+<div>
+86%
+<small>توصية العملاء</small>
+</div>
+
+<div>
+500+
+<small>جنيه يبدأ السعر</small>
+</div>
+
+<div>
+7
+<small>أيام استقبال حجوزات</small>
+</div>
+
 </section>
 
+
+<!-- الباقات -->
 <section id="packages" class="section">
+
 <div class="container">
 
-<div class="eyebrow">💰 الباقات والأسعار</div>
-<h2>اختار الباقة اللي تناسب شقتك</h2>
+<div class="eyebrow">
+💰 الباقات والأسعار
+</div>
+
+<h2>
+اختار الباقة اللي تناسب شقتك
+</h2>
 
 <p class="lead">
 أسعار واضحة من غير مفاجآت — احجز الباقة وهيتواصل معاك فريقنا على واتساب لتأكيد الميعاد.
 </p>
 
+
 <div class="cards two">
 
+
 <article class="price">
+
 <div class="icon">🧹</div>
-<h3>التنظيف العادي</h3>
-<strong>500 <small>جنيه</small></strong>
+
+<h3>
+التنظيف العادي
+</h3>
+
+<strong>
+500 <small>جنيه</small>
+</strong>
 
 <p>
 مناسبة للتنظيف الدوري والحفاظ على نظافة الشقة أسبوعياً أو شهرياً.
 </p>
 
 <ul>
+
 <li>كنس ومسح الأرضيات بالكامل</li>
+
 <li>تنظيف الحمامات والمطبخ</li>
+
 <li>مسح الأسطح والأثاث الظاهر</li>
+
 <li>ترتيب عام للشقة</li>
+
 </ul>
 
-<a class="btn" href="https://wa.me/201021512958?text=أريد%20حجز%20باقة%20التنظيف%20العادي">
+<a class="btn"
+href="https://wa.me/201021512958?text=أريد%20حجز%20باقة%20التنظيف%20العادي">
+
 احجز الباقة
+
 </a>
 
 </article>
 
-<article class="price featured">
-<div class="popular">الأكثر طلباً</div>
-<div class="icon">✨</div>
 
-<h3>التنظيف العميق</h3>
-<strong>1000 <small>جنيه تقريباً</small></strong>
+<article class="price featured">
+
+<div class="popular">
+الأكثر طلباً
+</div>
+
+<div class="icon">
+✨
+</div>
+
+<h3>
+التنظيف العميق
+</h3>
+
+<strong>
+1000 <small>جنيه تقريباً</small>
+</strong>
 
 <p>
 تنظيف شامل ومكثف لكل ركن في الشقة، مثالي قبل المناسبات أو بعد فترة طويلة.
 </p>
 
 <ul>
+
 <li>كل خدمات الباقة العادية</li>
+
 <li>تعقيم ومكافحة الفيروسات</li>
+
 <li>جلي وتلميع الرخام</li>
+
 <li>تنظيف المفروشات والواجهات الزجاجية</li>
+
 </ul>
 
-<a class="btn" href="https://wa.me/201021512958?text=أريد%20حجز%20باقة%20التنظيف%20العميق">
+<a class="btn"
+href="https://wa.me/201021512958?text=أريد%20حجز%20باقة%20التنظيف%20العميق">
+
 احجز الباقة
+
 </a>
 
 </article>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- الخدمات -->
 <section id="services" class="section alt">
+
 <div class="container">
 
-<div class="eyebrow">🧴 خدماتنا</div>
-<h2>خدمات إضافية بنقدمها</h2>
+<div class="eyebrow">
+🧴 خدماتنا
+</div>
+
+<h2>
+خدمات إضافية بنقدمها
+</h2>
 
 <p class="lead">
 خدمات متخصصة حسب احتياج بيتك أو منشأتك.
 </p>
 
+
 <div class="serviceGrid">
 
-<div>🏗️
+<div>
+🏗️
 <h3>تنظيف ما بعد التشطيب</h3>
 <p>إزالة آثار البناء والدهانات قبل السكن.</p>
 </div>
 
-<div>🛋️
+<div>
+🛋️
 <h3>تنظيف المفروشات</h3>
 <p>جميع أنواع الكنب والسجاد والستائر.</p>
 </div>
 
-<div>🦠
+<div>
+🦠
 <h3>تعقيم ومكافحة فيروسات</h3>
 <p>تعقيم شامل وآمن لكل الأسطح.</p>
 </div>
 
-<div>💎
+<div>
+💎
 <h3>جلي وتلميع الرخام</h3>
 <p>إعادة لمعان الرخام والأرضيات.</p>
 </div>
 
-<div>🐜
+<div>
+🐜
 <h3>مكافحة الحشرات والقوارض</h3>
 <p>حلول آمنة وفعالة.</p>
 </div>
 
-<div>🏢
+<div>
+🏢
 <h3>نظافة المنشآت</h3>
 <p>للمكاتب والمحلات والمنشآت التجارية.</p>
 </div>
 
-<div>🪟
+<div>
+🪟
 <h3>تنظيف الواجهات الزجاجية</h3>
 <p>زجاج نظيف ولامع بدون خطوط.</p>
 </div>
 
-<div>📦
+<div>
+📦
 <h3>خدمات مخصصة</h3>
 <p>كلمنا ونجهزلك عرض يناسبك.</p>
 </div>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- لماذا الأمير -->
 <section id="why" class="section">
+
 <div class="container">
 
-<div class="eyebrow">🏆 ليه الأمير</div>
-<h2>ثقة أكتر من 1.6 ألف متابع</h2>
+<div class="eyebrow">
+🏆 ليه الأمير
+</div>
+
+<h2>
+ثقة أكتر من 1.6 ألف متابع
+</h2>
 
 <div class="whyGrid">
 
@@ -228,19 +426,33 @@
 </div>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- الحجز -->
 <section id="book" class="section booking">
+
 <div class="container bookGrid">
 
 <div>
-<div class="eyebrow">📅 احجز معادك</div>
-<h2>جاهز تحجز؟ خطوة واحدة بس</h2>
+
+<div class="eyebrow">
+📅 احجز معادك
+</div>
+
+<h2>
+جاهز تحجز؟ خطوة واحدة بس
+</h2>
+
 <p>
 املأ بياناتك وهيتفتحلك واتساب برسالة جاهزة تتبعت لينا على طول.
 </p>
+
 </div>
+
 
 <form id="bookingForm">
 
@@ -256,169 +468,309 @@
 
 <label>
 الباقة المطلوبة
+
 <select id="package">
-<option>التنظيف العادي</option>
-<option>التنظيف العميق</option>
-<option>خدمة مخصصة</option>
+
+<option>
+التنظيف العادي
+</option>
+
+<option>
+التنظيف العميق
+</option>
+
+<option>
+خدمة مخصصة
+</option>
+
 </select>
+
 </label>
+
 
 <label>
 اليوم المفضل
+
 <select id="day">
+
 <option>اليوم</option>
+
 <option>غداً</option>
+
 <option>هذا الأسبوع</option>
+
 </select>
+
 </label>
+
 
 <label>
 المنطقة / العنوان
-<input id="address" required placeholder="مثال: الشيخ زايد، الحي كذا">
+
+<input
+id="address"
+required
+placeholder="مثال: الشيخ زايد، الحي كذا"
+>
+
 </label>
+
 
 <button class="btn" type="submit">
 💬 إرسال الحجز على واتساب
 </button>
 
 </form>
+
 </div>
+
 </section>
 
+
+<!-- آراء العملاء -->
 <section class="section">
+
 <div class="container">
 
-<div class="eyebrow">💬 آراء العملاء</div>
-<h2>عملاء بيثقوا في الأمير</h2>
+<div class="eyebrow">
+💬 آراء العملاء
+</div>
+
+<h2>
+عملاء بيثقوا في الأمير
+</h2>
+
 
 <div class="reviews">
 
 <blockquote>
-★★★★★<br>
+★★★★★
+<br>
 “خدمة محترمة وسعر مناسب، والفريق ملتزم بالميعاد.”
-<footer>عميلة من الشيخ زايد</footer>
+<footer>
+عميلة من الشيخ زايد
+</footer>
 </blockquote>
 
+
 <blockquote>
-★★★★★<br>
+★★★★★
+<br>
 “حجزت التنظيف العميق قبل مناسبة، والنتيجة فاقت التوقعات.”
-<footer>عميل من 6 أكتوبر</footer>
+<footer>
+عميل من 6 أكتوبر
+</footer>
 </blockquote>
+
 
 <blockquote>
-★★★★<br>
+★★★★
+<br>
 “تواصل سريع على واتساب وسهولة في الحجز، هكرر التجربة.”
-<footer>عميلة دائمة</footer>
+<footer>
+عميلة دائمة
+</footer>
 </blockquote>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- الأسئلة -->
 <section id="faq" class="section alt">
+
 <div class="container">
 
-<div class="eyebrow">❓ أسئلة شائعة</div>
-<h2>حابب تعرف أكتر؟</h2>
+<div class="eyebrow">
+❓ أسئلة شائعة
+</div>
+
+<h2>
+حابب تعرف أكتر؟
+</h2>
+
 
 <div class="faq">
 
 <details>
-<summary>إيه الفرق بين التنظيف العادي والعميق؟</summary>
+
+<summary>
+إيه الفرق بين التنظيف العادي والعميق؟
+</summary>
+
 <p>
 التنظيف العادي بيغطي الأرضيات والحمامات والمطبخ والترتيب العام.
 أما العميق فيضيف تعقيم وتنظيف مفروشات وزجاج وخدمات إضافية.
 </p>
+
 </details>
 
+
 <details>
-<summary>إزاي أحجز معاد؟</summary>
+
+<summary>
+إزاي أحجز معاد؟
+</summary>
+
 <p>
 استخدم فورم الحجز أو كلمنا مباشرة على واتساب، وهنأكدلك الميعاد والتفاصيل.
 </p>
+
 </details>
 
+
 <details>
-<summary>بتغطوا مناطق تانية؟</summary>
+
+<summary>
+بتغطوا مناطق تانية؟
+</summary>
+
 <p>
 بنخدم الشيخ زايد و6 أكتوبر والمناطق القريبة حسب توافر الفريق.
 </p>
+
 </details>
 
+
 <details>
-<summary>هل الأسعار نهائية؟</summary>
+
+<summary>
+هل الأسعار نهائية؟
+</summary>
+
 <p>
 الأسعار تقديرية حسب المساحة ونوع الخدمة، والسعر النهائي بيتأكد قبل الحجز.
 </p>
+
 </details>
 
 </div>
+
 </div>
+
 </section>
 
+
+<!-- التواصل -->
 <section id="contact" class="section contact">
+
 <div class="container">
 
-<div class="eyebrow">📞 تواصل معنا</div>
-<h2>كلمنا دلوقتي</h2>
+<div class="eyebrow">
+📞 تواصل معنا
+</div>
+
+<h2>
+كلمنا دلوقتي
+</h2>
+
 
 <div class="contactGrid">
 
 <div>
 💬
 <b>واتساب</b>
-<a href="https://wa.me/201021512958">01021512958</a>
+<a href="https://wa.me/201021512958">
+01021512958
+</a>
 </div>
+
 
 <div>
 📞
 <b>تليفون</b>
-<a href="tel:01021512958">01021512958</a>
+<a href="tel:01021512958">
+01021512958
+</a>
 </div>
+
 
 <div>
 📍
 <b>الموقع</b>
-<span>الشيخ زايد، 6 أكتوبر</span>
+<span>
+الشيخ زايد، 6 أكتوبر
+</span>
 </div>
+
 
 <div>
 📸
 <b>انستجرام</b>
-<span>@amer2012214</span>
+<span>
+@amer2012214
+</span>
 </div>
 
 </div>
+
 </div>
+
 </section>
 
 </main>
 
+
+<!-- الفوتر -->
 <footer>
 
 <div class="container footerin">
 
 <div>
-<h3>الأمير لخدمات النظافة</h3>
+
+<h3>
+الأمير لخدمات النظافة
+</h3>
+
 <p>
 نظافة بيتك أمانة في إيدينا. فريق محترف، أدوات حديثة، ومواعيد تناسبك.
 </p>
+
 </div>
+
 
 <div>
-<h4>روابط سريعة</h4>
-<a href="#packages">الباقات</a>
-<a href="#services">خدماتنا</a>
-<a href="#why">ليه الأمير</a>
+
+<h4>
+روابط سريعة
+</h4>
+
+<a href="#packages">
+الباقات
+</a>
+
+<a href="#services">
+خدماتنا
+</a>
+
+<a href="#why">
+ليه الأمير
+</a>
+
 </div>
+
 
 <div>
-<h4>تواصل معنا</h4>
-<a href="tel:01021512958">01021512958</a>
-<span>الشيخ زايد، 6 أكتوبر</span>
+
+<h4>
+تواصل معنا
+</h4>
+
+<a href="tel:01021512958">
+01021512958
+</a>
+
+<span>
+الشيخ زايد، 6 أكتوبر
+</span>
+
 </div>
 
 </div>
+
 
 <div class="copy">
 © 2026 الأمير لخدمات النظافة — جميع الحقوق محفوظة
@@ -426,37 +778,14 @@
 
 </footer>
 
-<a class="floating" href="https://wa.me/201021512958">💬</a>
+
+<!-- زر واتساب العائم -->
+<a class="floating" href="https://wa.me/201021512958">
+💬
+</a>
+
 
 <script src="script.js"></script>
 
 </body>
 </html>
-/* ضبط مقاس اللوجو */
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 55px;
-    overflow: hidden;
-}
-
-.logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-/* على الموبايل */
-@media (max-width: 768px) {
-    .logo {
-        width: 120px;
-        height: 50px;
-    }
-
-    .logo img {
-        object-fit: contain;
-    }
-}
